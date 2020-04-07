@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import TodoContainer from './components/TodoContainer'
-
+import './style.css'
 
 ReactDOM.render(<TodoContainer/>, document.getElementById('root') );
 
